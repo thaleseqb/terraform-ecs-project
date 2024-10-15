@@ -5,3 +5,7 @@ variable "repository_name" {
 variable "iam_role" {
   type = string
 }
+
+variable "environment" {
+  type = string
+}
