@@ -33,7 +33,7 @@ resource "aws_ecs_task_definition" "django_api" {
         "cpu" = 256
         "memory" = 512
         "essential" = true
-        "portMapping" = [
+        "portMappings" = [
           {
             "containerPort" = 8000
             "hostPort" = 8000
